@@ -5,7 +5,7 @@ import { Todo } from './todo';
 @Injectable({
   providedIn: 'root'
 })
-export class AppService {
+export class TodoService {
 
   baseUrl = 'http://localhost:3000';
   constructor(private http: HttpClient) {

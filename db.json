@@ -1,24 +1,19 @@
 {
   "todos": [
     {
-      "task": "Make youtube video",
-      "completed": true,
-      "id": 1
-    },
-    {
-      "task": "Read books",
-      "completed": true,
-      "id": 2
-    },
-    {
-      "task": "Fix the bug",
+      "task": "asdasd",
       "completed": false,
-      "id": 3
+      "id": 6
     },
     {
-      "task": "Test application",
+      "task": "dasdasd",
       "completed": false,
-      "id": 4
+      "id": 7
+    },
+    {
+      "task": "asdasdasd",
+      "completed": true,
+      "id": 8
     }
   ]
 }
