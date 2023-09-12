@@ -4,6 +4,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { DropdownModule } from 'primeng/dropdown'
 
 import { TodoModule } from './todo/todo.module';
 
@@ -15,7 +17,9 @@ import { TodoModule } from './todo/todo.module';
     BrowserModule,
     HttpClientModule,
     TodoModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DropdownModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
